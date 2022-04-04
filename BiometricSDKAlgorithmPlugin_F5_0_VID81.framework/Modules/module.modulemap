@@ -1,0 +1,6 @@
+framework module BiometricSDKAlgorithmPlugin_F5_0_VID81 {
+  umbrella header "BiometricSDKAlgorithmPlugin_F5_0_VID81.h"
+
+  export *
+  module * { export * }
+}
