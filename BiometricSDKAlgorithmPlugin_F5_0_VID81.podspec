@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Copyright", :text => "Copyright by Idemia" }
   s.author       = "Idemia"
   s.platform     = :ios, "10.0"
-  s.source = { :http => "https://zytrust.jfrog.io/zytrust/zy-valfacial-ios-cocoapods-local/BiometricSDKAlgorithmPlugin_F5_0_VID81/4.23.0/BiometricSDKAlgorithmPlugin_F5_0_VID81", :type => 'tgz'}
-
+  s.source       = { :git => "https://github.com/ZYTRUST/BiometricSDKAlgorithmPlugin_F5_0_VID81.git", :tag => "4.23.0" }
   s.requires_arc = true
   s.vendored_frameworks = "BiometricSDKAlgorithmPlugin_F5_0_VID81.framework"
 end
